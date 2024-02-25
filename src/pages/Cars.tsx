@@ -9,7 +9,6 @@ import { updateUser } from '../core/request'
 import { useQuery } from '@tanstack/react-query'
 import { QUERIES } from '../helpers/consts'
 import { getCars } from '../core/request'
-import './table.css'
 import { Link } from 'react-router-dom'
 
 const registrationSchema = Yup.object().shape({
