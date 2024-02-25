@@ -233,7 +233,7 @@ function Landing() {
 								className='card col-6 col-md-8 px-0 my-4'
 								style={{ width: '25rem' }}
 							>
-								<a href='#!' className='d-inline-block'>
+								<a href='/cars' className='d-inline-block'>
 									<img
 										src='https://images.template.net/wp-content/uploads/2016/04/27093219/Pure-Black-Car-Wallpaper.jpg'
 										className='card-img-top'
