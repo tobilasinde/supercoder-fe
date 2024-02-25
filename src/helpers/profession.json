@@ -1,0 +1,349 @@
+[
+  {
+    "label": "Healthcare Practitioners and Technical Occupations:",
+    "options": [
+      {
+        "value": "Chiropractor",
+        "label": "Chiropractor"
+      },
+      {
+        "value": "Dentist",
+        "label": "Dentist"
+      },
+      {
+        "value": "Dietitian or Nutritionist",
+        "label": "Dietitian or Nutritionist"
+      },
+      {
+        "value": "Optometrist",
+        "label": "Optometrist"
+      },
+      {
+        "value": "Pharmacist",
+        "label": "Pharmacist"
+      },
+      {
+        "value": "Physician",
+        "label": "Physician"
+      },
+      {
+        "value": "Physician Assistant",
+        "label": "Physician Assistant"
+      },
+      {
+        "value": "Podiatrist",
+        "label": "Podiatrist"
+      },
+      {
+        "value": "Registered Nurse",
+        "label": "Registered Nurse"
+      },
+      {
+        "value": "Therapist",
+        "label": "Therapist"
+      },
+      {
+        "value": "Veterinarian",
+        "label": "Veterinarian"
+      },
+      {
+        "value": "Health Technologist or Technician",
+        "label": "Health Technologist or Technician"
+      },
+      {
+        "value": "Other Healthcare Practitioners and Technical Occupation",
+        "label": "Other Healthcare Practitioners and Technical Occupation"
+      }
+    ]
+  },
+  {
+    "label": "Healthcare Support Occupations:",
+    "options": [
+      {
+        "value": "Nursing, Psychiatric, or Home Health Aide",
+        "label": "Nursing, Psychiatric, or Home Health Aide"
+      },
+      {
+        "value": "Occupational and Physical Therapist Assistant or Aide",
+        "label": "Occupational and Physical Therapist Assistant or Aide"
+      },
+      {
+        "value": "Other Healthcare Support Occupation",
+        "label": "Other Healthcare Support Occupation"
+      }
+    ]
+  },
+  {
+    "label": "Business, Executive, Management, and Financial Occupations:",
+    "options": [
+      {
+        "value": "Chief Executive",
+        "label": "Chief Executive"
+      },
+      {
+        "value": "General and Operations Manager",
+        "label": "General and Operations Manager"
+      },
+      {
+        "value": "Advertising, Marketing, Promotions, Public Relations, and Sales Manager",
+        "label": "Advertising, Marketing, Promotions, Public Relations, and Sales Manager"
+      },
+      {
+        "value": "Operations Specialties Manager (e.g., IT or HR Manager)",
+        "label": "Operations Specialties Manager (e.g., IT or HR Manager)"
+      },
+      {
+        "value": "Construction Manager",
+        "label": "Construction Manager"
+      },
+      {
+        "value": "Engineering Manager",
+        "label": "Engineering Manager"
+      },
+      {
+        "value": "Accountant, Auditor",
+        "label": "Accountant, Auditor"
+      },
+      {
+        "value": "Business Operations or Financial Specialist",
+        "label": "Business Operations or Financial Specialist"
+      },
+      {
+        "value": "Business Owner",
+        "label": "Business Owner"
+      },
+      {
+        "value": "Other Business, Executive, Management, Financial Occupation",
+        "label": "Other Business, Executive, Management, Financial Occupation"
+      }
+    ]
+  },
+  {
+    "label": "Architecture and Engineering Occupations:",
+    "options": [
+      {
+        "value": "Architect, Surveyor, or Cartographer",
+        "label": "Architect, Surveyor, or Cartographer"
+      },
+      {
+        "value": "Engineer",
+        "label": "Engineer"
+      },
+      {
+        "value": "Other Architecture and Engineering Occupation",
+        "label": "Other Architecture and Engineering Occupation"
+      }
+    ]
+  },
+  {
+    "label": "Education, Training, and Library Occupations:",
+    "options": [
+      {
+        "value": "Postsecondary Teacher (e.g., College Professor)",
+        "label": "Postsecondary Teacher (e.g., College Professor)"
+      },
+      {
+        "value": "Primary, Secondary, or Special Education School Teacher",
+        "label": "Primary, Secondary, or Special Education School Teacher"
+      },
+      {
+        "value": "Other Teacher or Instructor",
+        "label": "Other Teacher or Instructor"
+      },
+      {
+        "value": "Other Education, Training, and Library Occupation",
+        "label": "Other Education, Training, and Library Occupation"
+      }
+    ]
+  },
+  {
+    "label": "Other Professional Occupations:",
+    "options": [
+      {
+        "value": "Arts, Design, Entertainment, Sports, and Media Occupations",
+        "label": "Arts, Design, Entertainment, Sports, and Media Occupations"
+      },
+      {
+        "value": "Computer Specialist, Mathematical Science",
+        "label": "Computer Specialist, Mathematical Science"
+      },
+      {
+        "value": "Counselor, Social Worker, or Other Community and Social Service Specialist",
+        "label": "Counselor, Social Worker, or Other Community and Social Service Specialist"
+      },
+      {
+        "value": "Lawyer, Judge",
+        "label": "Lawyer, Judge"
+      },
+      {
+        "value": "Life Scientist (e.g., Animal, Food, Soil, or Biological Scientist, Zoologist)",
+        "label": "Life Scientist (e.g., Animal, Food, Soil, or Biological Scientist, Zoologist)"
+      },
+      {
+        "value": "Physical Scientist (e.g., Astronomer, Physicist, Chemist, Hydrologist)",
+        "label": "Physical Scientist (e.g., Astronomer, Physicist, Chemist, Hydrologist)"
+      },
+      {
+        "value": "Religious Worker (e.g., Clergy, Director of Religious Activities or Education)",
+        "label": "Religious Worker (e.g., Clergy, Director of Religious Activities or Education)"
+      },
+      {
+        "value": "Social Scientist and Related Worker",
+        "label": "Social Scientist and Related Worker"
+      },
+      {
+        "value": "Other Professional Occupation",
+        "label": "Other Professional Occupation"
+      }
+    ]
+  },
+  {
+    "label": "Office and Administrative Support Occupations:",
+    "options": [
+      {
+        "value": "Supervisor of Administrative Support Workers",
+        "label": "Supervisor of Administrative Support Workers"
+      },
+      {
+        "value": "Financial Clerk",
+        "label": "Financial Clerk"
+      },
+      {
+        "value": "Secretary or Administrative Assistant",
+        "label": "Secretary or Administrative Assistant"
+      },
+      {
+        "value": "Material Recording, Scheduling, and Dispatching Worker",
+        "label": "Material Recording, Scheduling, and Dispatching Worker"
+      },
+      {
+        "value": "Other Office and Administrative Support Occupation",
+        "label": "Other Office and Administrative Support Occupation"
+      }
+    ]
+  },
+  {
+    "label": "Services Occupations:",
+    "options": [
+      {
+        "value": "Protective Service (e.g., Fire Fighting, Police Officer, Correctional Officer)",
+        "label": "Protective Service (e.g., Fire Fighting, Police Officer, Correctional Officer)"
+      },
+      {
+        "value": "Chef or Head Cook",
+        "label": "Chef or Head Cook"
+      },
+      {
+        "value": "Cook or Food Preparation Worker",
+        "label": "Cook or Food Preparation Worker"
+      },
+      {
+        "value": "Food and Beverage Serving Worker (e.g., Bartender, Waiter, Waitress)",
+        "label": "Food and Beverage Serving Worker (e.g., Bartender, Waiter, Waitress)"
+      },
+      {
+        "value": "Building and Grounds Cleaning and Maintenance",
+        "label": "Building and Grounds Cleaning and Maintenance"
+      },
+      {
+        "value": "Personal Care and Service (e.g., Hairdresser, Flight Attendant, Concierge)",
+        "label": "Personal Care and Service (e.g., Hairdresser, Flight Attendant, Concierge)"
+      },
+      {
+        "value": "Sales Supervisor, Retail Sales",
+        "label": "Sales Supervisor, Retail Sales"
+      },
+      {
+        "value": "Retail Sales Worker",
+        "label": "Retail Sales Worker"
+      },
+      {
+        "value": "Insurance Sales Agent",
+        "label": "Insurance Sales Agent"
+      },
+      {
+        "value": "Sales Representative",
+        "label": "Sales Representative"
+      },
+      {
+        "value": "Real Estate Sales Agent",
+        "label": "Real Estate Sales Agent"
+      },
+      {
+        "value": "Other Services Occupation",
+        "label": "Other Services Occupation"
+      }
+    ]
+  },
+  {
+    "label": "Agriculture, Maintenance, Repair, and Skilled Crafts Occupations:",
+    "options": [
+      {
+        "value": "Construction and Extraction (e.g., Construction Laborer, Electrician)",
+        "label": "Construction and Extraction (e.g., Construction Laborer, Electrician)"
+      },
+      {
+        "value": "Farming, Fishing, and Forestry",
+        "label": "Farming, Fishing, and Forestry"
+      },
+      {
+        "value": "Installation, Maintenance, and Repair",
+        "label": "Installation, Maintenance, and Repair"
+      },
+      {
+        "value": "Production Occupations",
+        "label": "Production Occupations"
+      },
+      {
+        "value": "Other Agriculture, Maintenance, Repair, and Skilled Crafts Occupation",
+        "label": "Other Agriculture, Maintenance, Repair, and Skilled Crafts Occupation"
+      }
+    ]
+  },
+  {
+    "label": "Transportation Occupations:",
+    "options": [
+      {
+        "value": "Aircraft Pilot or Flight Engineer",
+        "label": "Aircraft Pilot or Flight Engineer"
+      },
+      {
+        "value": "Motor Vehicle Operator (e.g., Ambulance, Bus, Taxi, or Truck Driver)",
+        "label": "Motor Vehicle Operator (e.g., Ambulance, Bus, Taxi, or Truck Driver)"
+      },
+      {
+        "value": "Other Transportation Occupation",
+        "label": "Other Transportation Occupation"
+      }
+    ]
+  },
+  {
+    "label": "Other Occupations:",
+    "options": [
+      {
+        "value": "Military",
+        "label": "Military"
+      },
+      {
+        "value": "Homemaker",
+        "label": "Homemaker"
+      },
+      {
+        "value": "Retired",
+        "label": "Retired"
+      },
+      {
+        "value": "Other Occupation",
+        "label": "Other Occupation"
+      },
+      {
+        "value": "Don't Know",
+        "label": "Don't Know"
+      },
+      {
+        "value": "Not Applicable",
+        "label": "Not Applicable"
+      }
+    ]
+  }
+]

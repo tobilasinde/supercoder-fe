@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+}
+
+/* UTILITY STYLINGS */
+
+a.nav-link {
+	font-weight: bolder !important;
+}
+
+:root {
+	--BTN-COLOR: #ff7a00;
+	--TEXT-ORANGE: var(--BTN-COLOR);
+	--COLOR-LIGHT: #fff;
+	--COLOR-DARK: #000;
+}
+
+/* SIGNUP STYLES */
+.sign_up,
+.login {
+	background-image: url('../img/Splash.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.sign_up-btn,
+.login-btn {
+	background-color: #ff7a00;
+}
+.sign_up-btn:hover,
+.login-btn:hover {
+	color: #ff7a00;
+	background-color: #fff;
+}
+
+body.login .form-control,
+body.login .login-btn {
+	height: 50px;
+}
+.login_link {
+	color: #fc2469;
+}
+
+.order-link,
+.explore-btn,
+.read-more-btn {
+	background: var(--BTN-COLOR);
+	color: var(--COLOR-LIGHT);
+}
+.order-link:hover {
+	color: #ff7a00;
+	background-color: #000;
+}
+
+/* .HERO SECTION */
+
+.hero {
+	background: url('../images/bg_image.png') no-repeat center;
+	min-height: 100vh;
+	border: 1px solid;
+	color: var(--COLOR-LIGHT);
+}
+
+.text-orange {
+	color: var(--BTN-COLOR);
+}
+
+.btn.see-cars-btn {
+	border-color: var(--BTN-COLOR) !important;
+}
+
+.btn.see-cars-btn:hover {
+	border-color: var(--COLOR-LIGHT) !important;
+	color: var(--BTN-COLOR) !important;
+	background-color: var(--COLOR-LIGHT);
+}
+
+.about-us-wrapper {
+	max-height: 100vh;
+}
+
+.aboutUs-img-wrapper,
+.aboutUs-txt-wrapper {
+	height: 60vh;
+	/* overflow-y: auto; */
+}
+
+.aboutUs-txt-wrapper .text-content-wrapper > .text {
+	height: 30vh;
+	overflow-y: auto;
+}
+.read-more-btn:hover {
+	background-color: var(--COLOR-DARK);
+	color: var(--COLOR-LIGHT);
+}
+
+@media screen and (max-width: 900px) {
+	/* .hero > .container-wrapper {
+
+    } */
+
+	.about-us-img-wrapper {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.navbar-brand {
+		font-size: 1rem;
+	}
+
+	.form-wrapper {
+		/* width: 90%; */
+		width: 80% !important;
+		/* border: 1px solid; */
+		/* display: none; */
+	}
+
+	.form-control,
+	.sign_up-btn,
+	.login-btn {
+		height: 50px;
+	}
+
+	.about-us-wrapper {
+		min-height: 100vh;
+		padding-bottom: 20px !important;
+	}
+	.aboutUs-txt-wrapper {
+		height: fit-content;
+	}
+
+	.car-display {
+		margin-top: 35%;
+	}
+}
