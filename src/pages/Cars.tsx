@@ -10,6 +10,7 @@ import { useQuery } from '@tanstack/react-query'
 import { QUERIES } from '../helpers/consts'
 import { getCars } from '../core/request'
 import './table.css'
+import { Link } from 'react-router-dom'
 
 const registrationSchema = Yup.object().shape({
 	annual_income: Yup.number().label('Annual Income'),
@@ -90,12 +91,19 @@ export function Cars() {
 				<nav className='navbar navbar-expand-lg bg-body-white border'>
 					<div className='container-fluid row justify-content-between justify-content-md-around'>
 						<div className='col-5 col-md-2 logo-container '>
-							<a
-								className='navbar-brand logo p-4 d-inline-block border m-auto text-center w-100 fw-bolder'
-								href='index.html'
+							<Link
+								className='navbar-brand logo p-0 d-inline-block  m-auto text-center w-100 fw-bolder'
+								to='/'
 							>
-								SUPERCARS
-							</a>
+								<img
+									src='./assets/images/super.png'
+									className='logo logo-img'
+									id='logo'
+									alt='Super Cars Logo '
+									width='100%'
+									height='100%'
+								/>
+							</Link>
 						</div>
 
 						<button
@@ -147,7 +155,7 @@ export function Cars() {
 
 				<section className='user_preference_form p-2 bg-white border border-3'>
 					<div className='row justify-content-md-around align-items-center'>
-						<div className='col col-md-6 '>
+						<div className='col-md-12 col-xl-5'>
 							<h3 className='text '>
 								CHOOSE YOUR{' '}
 								<span className='text-orange fw-bolder'>
@@ -159,7 +167,7 @@ export function Cars() {
 							{/* <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/qLudEE474M8?si=AOh_t6XkB4Y3Xfj7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> --> */}
 						</div>
 
-						<div className='col-5'>
+						<div className='col-md-12 col-xl-6'>
 							<div className='col'>
 								<form
 									className='preference_form row py-3 border border-5 rounded-3 justify-content-center m-auto m-md-0 needs-validation'
@@ -380,7 +388,7 @@ export function Cars() {
 									{car.make + ' ' + car.model + ' ' + car.year}
 								</h5>
 								<div className='row justify-content-between p-0  w-100'>
-									<span className='carPrice col-5 mb-2 m-0 fw-bold '>
+									<span className='carPrice col-6 mb-2 m-0 fw-bold '>
 										From:{' '}
 										{car.price?.toLocaleString('en-GB', {
 											style: 'currency',

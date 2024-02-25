@@ -23,7 +23,7 @@ const App = () => {
 					{currentUser ? (
 						<>
 							<Route path='/cars' element={<Cars />} />
-							<Route path='*' element={<Navigate to='/cars' />} />
+							<Route path='*' element={<Navigate to='/' />} />
 						</>
 					) : (
 						<>

@@ -9,6 +9,10 @@ body {
 	font-family: 'Poppins', sans-serif;
 }
 
+.logo-container {
+	width: 100px;
+	height: 100px;
+}
 /* UTILITY STYLINGS */
 
 a.nav-link {
@@ -109,9 +113,9 @@ body.login .login-btn {
 
 .preference_form {
 	border-color: var(--BTN-COLOR) !important;
-	color: var(--COLOR-LIGHT);
-	background-color: var(--BTN-COLOR);
 }
+/* color: var(--COLOR-LIGHT);
+    background-color: var(--BTN-COLOR); */
 
 @media screen and (max-width: 900px) {
 	/* .hero > .container-wrapper {
