@@ -23,13 +23,13 @@ const App = () => {
 					{currentUser ? (
 						<>
 							<Route path='/cars' element={<Cars />} />
-							<Route path='*' element={<Navigate to='/' />} />
+							<Route path='*' element={<Navigate to='/cars' />} />
 						</>
 					) : (
 						<>
 							<Route path='auth/signup' element={<Signup />} />
 							<Route path='auth/login' element={<Login />} />
-							<Route path='*' element={<Navigate to='/' />} />
+							<Route path='*' element={<Navigate to='/auth/login' />} />
 						</>
 					)}
 					<Route path='/' element={<Landing />} />

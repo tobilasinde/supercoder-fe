@@ -20,6 +20,12 @@ export type Car = {
 	engineSize?: number
 	maintenanceCostYearly?: number
 	average_maintenace_cost_yearly?: number
+	total0_years: number
+	total1_years: number
+	total2_years: number
+	total3_years: number
+	total4_years: number
+	total5_years: number
 }
 
 export type CarsQueryResponse = Response<Array<Car>>

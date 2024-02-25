@@ -7,7 +7,6 @@
 }
 body {
 	font-family: 'Poppins', sans-serif;
-	color: #fff;
 }
 
 /* UTILITY STYLINGS */
@@ -24,6 +23,9 @@ a.nav-link {
 }
 
 /* SIGNUP STYLES */
+.form-wrapper {
+	color: var(--COLOR-LIGHT);
+}
 .sign_up,
 .login {
 	background-image: url('../img/Splash.jpg');
@@ -32,8 +34,11 @@ a.nav-link {
 	background-position: center;
 }
 .sign_up-btn,
-.login-btn {
+.login-btn,
+.submit-btn,
+.login-link {
 	background-color: #ff7a00;
+	color: var(--COLOR-DARK);
 }
 .sign_up-btn:hover,
 .login-btn:hover {
@@ -100,6 +105,12 @@ body.login .login-btn {
 .read-more-btn:hover {
 	background-color: var(--COLOR-DARK);
 	color: var(--COLOR-LIGHT);
+}
+
+.preference_form {
+	border-color: var(--BTN-COLOR) !important;
+	color: var(--COLOR-LIGHT);
+	background-color: var(--BTN-COLOR);
 }
 
 @media screen and (max-width: 900px) {
